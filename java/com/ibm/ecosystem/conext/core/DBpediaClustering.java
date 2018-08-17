@@ -220,8 +220,8 @@ public class DBpediaClustering {
 	public static List<String> loadSeedsFromDictionary(String dictionary) {
 
 		List<String> seeds = new ArrayList<String>();
-		String username = "jkaufma@us.ibm.com";
-		String password = "omgwtfbbql337";
+		String username = "<USERID";
+		String password = "<PASSWORD>";
 		String login = username + ":" + password;
 
 		String base64login = new String(org.apache.commons.codec.binary.Base64.encodeBase64(login.getBytes()));
